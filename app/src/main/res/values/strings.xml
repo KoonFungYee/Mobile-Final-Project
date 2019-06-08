@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Find Food</string>
+    <string name="home">Home</string>
+    <string name="sale">Around Me</string>
+    <string name="top10">Top 10</string>
+    <string name="all">All</string>
+    <string name="me">Profile</string>
+
+    <string-array name="gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="restaurantstate">
+        <item>Johor</item>
+        <item>Labuan</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Kuala Lumpur</item>
+        <item>Melaka</item>
+        <item>Pahang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Pinang</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>BBQ</item>
+        <item>Buffet</item>
+        <item>Chinese</item>
+        <item>Halal</item>
+        <item>India</item>
+        <item>Japanese</item>
+        <item>Trending</item>
+        <item>Western</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>All Day</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Hi-Tea</item>
+        <item>Dinner</item>
+        <item>Supper</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

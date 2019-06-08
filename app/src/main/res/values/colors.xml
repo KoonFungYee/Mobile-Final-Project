@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BE2F7</color> <!--color bar-->
+    <color name="colorPrimaryDark">#00B4D4</color> <!--color top-->
+    <color name="colorAccent">#FF0000</color> <!--writing color-->
+    <color name="button">#cf3de5</color>
+    <color name="bottomNavigation">#D3D3D3</color>
+    <color name="background">#C6948D8D</color>
+
+    <color name="odd">#eee</color>
+    <color name="even">#fff</color>
+    <color name="devider">#CCCCCC</color>
+    <color name="warning">#FF0000</color>
+    <color name="normal">#000000</color>
+
+</resources>

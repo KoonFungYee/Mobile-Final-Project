@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/newfood"
+        android:title="New Food" />
+
+    <item
+        android:id="@+id/editrestaurant"
+        android:title="Edit Restaurant" />
+
+    <item
+        android:id="@+id/unavailable"
+        android:title="Restaurant Unavailable" />
+
+    <item
+        android:id="@+id/available"
+        android:title="Restaurant is available" />
+
+
+
+</menu>

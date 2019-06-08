@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="660dp"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/searchBar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></include>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="418dp"
+        android:layout_height="50dp"
+        app:itemBackground="@color/bottomNavigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation" />
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/layout1"
+                    layout="@layout/activity_tab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"></include>
+
+                <include
+                    android:id="@+id/layout2"
+                    layout="@layout/activity_tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></include>
+
+                <include
+                    android:id="@+id/layout3"
+                    layout="@layout/activity_tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></include>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</android.support.constraint.ConstraintLayout>

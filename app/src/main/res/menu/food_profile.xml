@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editfood"
+        android:title="Edit Food Info" />
+
+    <item
+        android:id="@+id/foodunavailable"
+        android:title="Food Unavailable" />
+
+    <item
+        android:id="@+id/foodavailable"
+        android:title="Food is available" />
+
+
+
+</menu>
