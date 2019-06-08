@@ -1,0 +1,3 @@
+[30-May-2019 00:01:54 Asia/Kuala_Lumpur] PHP Warning:  fopen(../profileimages/0109560095.jpg): failed to open stream: No such file or directory in /home/socstude/public_html/findfood/php/upload_image.php on line 8
+[30-May-2019 00:01:54 Asia/Kuala_Lumpur] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/findfood/php/upload_image.php on line 9
+[30-May-2019 00:01:54 Asia/Kuala_Lumpur] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/socstude/public_html/findfood/php/upload_image.php on line 10
